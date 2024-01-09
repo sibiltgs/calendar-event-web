@@ -15,8 +15,7 @@ app.use(cors(options))
 const calendarId = 'primary'; // Replace with your Google Calendar ID
 
 const credentials = {
-  client_id: '554879703409-7pvhq0svirotdjh73oh3sgnpam9g3vo4.apps.googleusercontent.com',
-  client_secret: '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',
+  
   redirect_uris: ['http://localhost:8080/auth/redirect'],
 };
 
